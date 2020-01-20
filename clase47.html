@@ -225,14 +225,14 @@
            }
         }
         ganoElJuego() {
-            swal('Platzi','Felicidades ganaste el juego','success')
+            swal('BrainstormGames','Felicidades ganaste el juego','success')
             .then(()=>{
                 this.inicializar()
             })
         }
 
         perdioElJuego() {
-            swal('Platzi','lo lamentamos perdiste','error')
+            swal('BrainstormGames','lo lamentamos perdiste vuelve a intentarlo','error')
             .then(()=>{
                 this.eliminarEventosClick()
                 this.inicializar()
